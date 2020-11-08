@@ -67,9 +67,10 @@ main {
     width: 500px;
     font-weight: 400;
     font-size: 18px;
-    line-height: 145%;
+    line-height: 25px;
 }
 .btn {
+    display: block;
     padding: 15px 47px;
     width: 185px;
     height: 45px;
@@ -89,9 +90,34 @@ main {
     display: flex;
     justify-content: space-between;
     width: 170px;
-    margin-top: 183px;
+    margin-top: 185px;
     list-style: none;
 }
 .your-life__social-list a:hover {
     opacity: .8;
+}
+.design {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    margin: 0 auto;
+    padding: 120px 146px 140px;
+    width: 1600px;
+}
+.design__content {
+    width: 407px;
+}
+.design__content-title {
+    width: 370px;
+    font-size: 24px;
+    line-height: 28px;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    color: #373737;
+}
+.design__content-text {
+    margin: 20px 0 30px;
+    font-size: 14px;
+    line-height: 20px;
+    color: #4e4e4e;
 }
