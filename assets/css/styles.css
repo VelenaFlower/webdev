@@ -230,7 +230,7 @@ input[type="email"] {
     cursor: pointer;
 }
 .download {
-    padding: 120px 0 180px;
+    padding: 120px 0 179px;
     background-color: #f5f6f7;
 }
 .download__content {
@@ -260,4 +260,51 @@ input[type="email"] {
 }
 .btn-android {
     background: #00afdb url("../images/icon-android.svg") no-repeat right;
+}
+.footer {
+    padding: 60px 0 76px;
+    background-color: #000;
+}
+.footer__content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 1600px;
+    margin: 0 auto;
+    padding: 0 160px;
+}
+.footer__content-links {
+    display: flex;
+}
+.footer__content-links:last-child {
+    margin-right: 0;
+}
+.footer__content-links li:not(:last-child) {
+    position: relative;
+    margin-right: 41px;
+}
+.footer__content-links li:not(:last-child):before {
+    content: "|";
+    position: absolute;
+    top: 5px;
+    right: -23px;
+    font-size: 10px;
+    color: #4e4e4e;
+}
+.footer__content-links-item {
+    font-size: 14px;
+    line-height: 20px;
+    color: #fff;
+    text-decoration: none;
+    opacity: .98;
+}
+.footer__content-links-item:hover {
+    text-decoration: underline;
+    opacity: 1;
+}
+.footer__content-text {
+    padding-left: 66px;
+    font-size: 14px;
+    line-height: 20px;
+    color: #818181;
 }
