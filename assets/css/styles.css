@@ -82,7 +82,8 @@ main {
     color: #fff;
     background-color: #00AFDB;
 }
-.btn:active {
+.btn:active,
+button:active {
     transform: translateY(1px);
     filter: saturate(150%);
 }
@@ -110,7 +111,8 @@ main {
 }
 .design__content-title,
 .implementation__content-title,
-.sign-up__title {
+.sign-up__title,
+.download__content-title {
     width: 370px;
     font-weight: bold;
     font-size: 24px;
@@ -120,7 +122,9 @@ main {
     color: #373737;
 }
 .design__content-text,
-.implementation__content-text {
+.community__content-text,
+.implementation__content-text,
+.download__content-text {
     margin: 20px 0 30px;
     font-size: 14px;
     line-height: 20px;
@@ -156,12 +160,7 @@ main {
     color: #373737;
 }
 .community__content-text {
-    font-style: normal;
-    font-weight: normal;
-    font-size: 14px;
-    line-height: 20px;
     text-align: center;
-    color: #4E4E4E;
 }
 .community__slider {
     min-width: 895px;
@@ -229,4 +228,36 @@ input[type="email"] {
     background: #00afdb url("../images/check.svg") no-repeat center;
     border: 0;
     cursor: pointer;
+}
+.download {
+    padding: 120px 0 180px;
+    background-color: #f5f6f7;
+}
+.download__content {
+    width: 470px;
+    margin: 0 auto;
+    text-align: center;
+}
+.download__content-title {
+    width: 100%;
+    margin-bottom: 21px;
+}
+.download__btn {
+    width: 186px;
+    height: 50px;
+    margin: 0 15px;
+    padding: 0 60px 0 0;
+    font-weight: bold;
+    font-size: 14px;
+    line-height: 16px;
+    text-transform: uppercase;
+    text-align: center;
+    color: #fff;
+    background: #00afdb url("../images/icon-apple.svg") no-repeat right;
+    border: 0;
+    cursor: pointer;
+    outline: none;
+}
+.btn-android {
+    background: #00afdb url("../images/icon-android.svg") no-repeat right;
 }
