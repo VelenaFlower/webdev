@@ -4,8 +4,9 @@
   <meta charset="UTF-8">
   <title>WEBDEV</title>
   <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap" rel="stylesheet">
-  <link href="reset.css" rel="stylesheet">
-  <link href="styles.css" rel="stylesheet">
+  <link href="assets/css/reset.css" rel="stylesheet">
+  <link href="assets/css/slick.css" rel="stylesheet">
+  <link href="assets/css/styles.css" rel="stylesheet">
   <link rel="shortcut icon" href="assets/images/logo.ico" type="image/x-icon">
 </head>
 <body>
@@ -23,10 +24,12 @@
   </header>
   <main>
     <section class="your-life">
-      <h2 class="your-life__title">your life is WebDev</h2>
-      <p class="your-life__text">
+      <div class="your-life__title">
+        your life is WebDev
+      </div>
+      <div class="your-life__text">
         Whatever the approach to development may be, the final program must satisfy some fundamental properties
-      </p>
+      </div>
       <a class="btn" href="#">get started</a>
       <ul class="your-life__social-list">
         <li><a href="#"><img src="assets/images/mail.svg" alt="mail"></a></li>
@@ -37,9 +40,11 @@
     </section>
     <section class="design">
       <div class="design__content">
-        <h3 class="design__content-title">Rappresent your idea with a smart Design</h3>
+        <div class="design__content-title">
+          Rappresent your idea with a smart Design
+        </div>
         <div class="design__content-text">
-          Tasks accompanying and related to programming include: testing, debugging, source code maintenance, implementation of build systems, and management of derived artifacts, such as the machine code of computer programs.
+          Tasks accompanying and related to programming include: testing, debugging, source code maintenance, <b>implementation of build systems</b>, and management of derived artifacts, such as the machine code of computer programs.
         </div>
         <a class="btn" href="#">get started</a>
       </div>
@@ -47,6 +52,32 @@
         <img src="assets/images/design-img.jpg" alt="img">
       </div>
     </section>
+    <section class="community">
+      <div class="community__content-wrapper">
+        <div class="community__content">
+          <div class="community__content-icon">
+            <img src="assets/images/icon-community.png" alt="icon">
+          </div>
+          <div class="community__content-title">
+            our community
+          </div>
+          <div class="community__content-text">
+            A hacker is any skilled computer expert that uses their technical knowledge to overcome a problem, but it can also mean a security hacker in common language
+          </div>
+        </div>
+        <div class="community__slider">
+          <div class="community__slider-item"><img src="assets/images/item-1.jpg" alt=""></div>
+          <div class="community__slider-item"><img src="assets/images/item-2.jpg" alt=""></div>
+          <div class="community__slider-item"><img src="assets/images/item-3.jpg" alt=""></div>
+          <div class="community__slider-item"><img src="assets/images/item-4.jpg" alt=""></div>
+          <div class="community__slider-item"><img src="assets/images/item-5.jpg" alt=""></div>
+        </div>
+      </div>
+    </section>
   </main>
+
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+  <script src="assets/js/slick.min.js"></script>
+  <script src="assets/js/main.js"></script>
 </body>
 </html>

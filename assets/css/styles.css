@@ -19,8 +19,8 @@ main {
     overflow: hidden;
 }
 .header {
-    margin: 0 auto;
     width: 595px;
+    margin: 0 auto;
     font-weight: 400;
     font-size: 14px;
 }
@@ -45,7 +45,7 @@ main {
 }
 .your-life {
     min-height: 744px;
-    background: #000 url("./assets/images/bg-image-wrapper.jpg") no-repeat center;
+    background: #000 url("../images/bg-image-wrapper.jpg") no-repeat center;
 }
 .your-life {
     display: flex;
@@ -63,24 +63,24 @@ main {
     text-transform: uppercase;
 }
 .your-life__text {
-    margin: 20px 0 30px;
     width: 500px;
+    margin: 20px 0 30px;
     font-weight: 400;
     font-size: 18px;
     line-height: 25px;
 }
 .btn {
     display: block;
-    padding: 15px 47px;
     width: 185px;
     height: 45px;
+    padding: 15px 47px;
     font-weight: bold;
     font-size: 14px;
     line-height: 16px;
     text-transform: uppercase;
+    text-decoration: none;
     color: #fff;
     background-color: #00AFDB;
-    text-decoration: none;
 }
 .btn:active {
     transform: translateY(1px);
@@ -100,15 +100,16 @@ main {
     display: flex;
     align-items: center;
     justify-content: space-around;
+    width: 1600px;
     margin: 0 auto;
     padding: 120px 146px 140px;
-    width: 1600px;
 }
 .design__content {
     width: 407px;
 }
 .design__content-title {
     width: 370px;
+    font-weight: bold;
     font-size: 24px;
     line-height: 28px;
     letter-spacing: 1px;
@@ -121,3 +122,64 @@ main {
     line-height: 20px;
     color: #4e4e4e;
 }
+.community {
+    padding: 117px 0 140px;
+    background-color: #f5f6f7;
+}
+.community__content-wrapper {
+    display: flex;
+    align-items: center;
+    width: 1600px;
+    margin: 0 auto;
+    padding-left: 14%;
+}
+.community__content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    min-width: 300px;
+    height: 175px;
+    margin-right: 140px;
+}
+.community__content-title {
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 20px;
+    letter-spacing: 2.4px;
+    text-transform: uppercase;
+    color: #373737;
+}
+.community__content-text {
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 20px;
+    text-align: center;
+    color: #4E4E4E;
+}
+.community__slider {
+    min-width: 895px;
+}
+.slider-arrows, .community__count {
+    position: absolute;
+    top: -37px;
+    right: 30%;
+    z-index: 4;
+    font-size: 18px;
+    letter-spacing: 5px;
+    cursor: pointer;
+}
+.slider-arrows__left {
+    right: 37.6%;
+}
+.community__count {
+    right: 32%;
+}
+.slick-slide {
+}
+.slick-list {
+    padding: 0 2.5% 0 0;
+}
+
