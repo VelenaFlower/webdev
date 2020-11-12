@@ -19,8 +19,9 @@ main {
     overflow: hidden;
 }
 .header {
-    width: 595px;
+    max-width: 595px;
     margin: 0 auto;
+    padding: 0 5px;
     font-weight: 400;
     font-size: 14px;
 }
@@ -44,16 +45,14 @@ main {
     opacity: 1;
 }
 .your-life {
-    min-height: 744px;
-    background: #000 url("../images/bg-image-wrapper.jpg") no-repeat center;
-}
-.your-life {
     display: flex;
     flex-direction: column;
     align-items: center;
-    padding-top: 230px;
+    min-height: 744px;
+    padding: 230px 10px 0;
     text-align: center;
     color: #fff;
+    background: #000 url("../images/bg-image-wrapper.jpg") no-repeat center;
 }
 .your-life__title {
     font-weight: 700;
@@ -63,7 +62,7 @@ main {
     text-transform: uppercase;
 }
 .your-life__text {
-    width: 500px;
+    max-width: 500px;
     margin: 20px 0 30px;
     font-weight: 400;
     font-size: 18px;
@@ -102,18 +101,18 @@ button:active {
     display: flex;
     align-items: center;
     justify-content: space-around;
-    width: 1600px;
+    max-width: 1600px;
     margin: 0 auto;
     padding: 120px 146px 140px;
 }
 .design__content {
-    width: 407px;
+    max-width: 407px;
 }
 .design__content-title,
 .implementation__content-title,
 .sign-up__title,
 .download__content-title {
-    width: 370px;
+    max-width: 370px;
     font-weight: bold;
     font-size: 24px;
     line-height: 28px;
@@ -137,7 +136,8 @@ button:active {
 .community__content-wrapper {
     display: flex;
     align-items: center;
-    width: 1600px;
+    justify-content: center;
+    max-width: 1600px;
     margin: 0 auto;
     padding-left: 14%;
 }
@@ -146,11 +146,12 @@ button:active {
     flex-direction: column;
     align-items: center;
     justify-content: space-between;
-    min-width: 300px;
+    max-width: 300px;
     height: 175px;
     margin-right: 140px;
 }
 .community__content-title {
+    margin-top: 10px;
     font-style: normal;
     font-weight: 500;
     font-size: 16px;
@@ -163,9 +164,10 @@ button:active {
     text-align: center;
 }
 .community__slider {
-    min-width: 895px;
+    max-width: 895px;
 }
-.slider-arrows, .community__count {
+.slider-arrows,
+.community__count {
     position: absolute;
     top: -37px;
     right: 30%;
@@ -180,8 +182,6 @@ button:active {
 .community__count {
     right: 32%;
 }
-.slick-slide {
-}
 .slick-list {
     padding: 0 2.5% 0 0;
 }
@@ -190,7 +190,7 @@ button:active {
     padding: 120px 378px 137px 269px;
 }
 .implementation__content {
-    width: 407px;
+    max-width: 407px;
 }
 .implementation .btn {
     width: 180px;
@@ -202,13 +202,13 @@ button:active {
     background-size: cover;
 }
 .sign-up__title {
-    width: 390px;
+    max-width: 390px;
     margin: 0 auto 30px;
     color: #fff;
 }
 .sign-up__form {
     position: relative;
-    width: 406px;
+    max-width: 406px;
     margin: 0 auto;
 }
 .sign-up__form-email {
@@ -234,18 +234,18 @@ input[type="email"] {
     background-color: #f5f6f7;
 }
 .download__content {
-    width: 470px;
+    max-width: 470px;
     margin: 0 auto;
     text-align: center;
 }
 .download__content-title {
     width: 100%;
-    margin-bottom: 21px;
+    margin: 0 auto 21px;
 }
 .download__btn {
     width: 186px;
     height: 50px;
-    margin: 0 15px;
+    margin: 0 15px 20px;
     padding: 0 60px 0 0;
     font-weight: bold;
     font-size: 14px;
@@ -269,7 +269,7 @@ input[type="email"] {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    width: 1600px;
+    max-width: 1600px;
     margin: 0 auto;
     padding: 0 160px;
 }

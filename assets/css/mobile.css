@@ -1,0 +1,201 @@
+@media (max-width: 1570px) {
+    .community__content-wrapper {
+        padding-left: 12%;
+    }
+    .slick-list {
+        padding: 0 0 0 0;
+    }
+    .implementation {
+        padding: 120px 16% 137px 15%;
+    }
+}
+@media (max-width: 1440px) {
+   .community__content {
+       margin-right: 4%;
+   }
+}
+@media (max-width: 1335px) {
+    .community__content-wrapper {
+        padding-left: 4%;
+    }
+    .implementation {
+        padding: 120px 13% 137px 12%;
+    }
+}
+@media (max-width: 1220px) {
+    .design {
+        padding: 120px 10px 140px;
+    }
+    .community__content {
+        margin-right: 12%;
+    }
+    .community__slider {
+        max-width: 407px;
+    }
+    .slider-arrows {
+        right: 28%;
+    }
+    .slider-arrows__left {
+        right: 43.6%;
+    }
+    .implementation {
+        padding: 120px 7% 137px 6%;
+    }
+    .footer__content-text {
+        padding-left: 0;
+    }
+}
+@media (max-width: 1000px) {
+    .implementation__content {
+        max-width: 407px;
+        margin-left: 35px;
+    }
+}
+@media (max-width: 960px) {
+    .community__content-wrapper {
+        padding-left: 0;
+    }
+}
+@media (max-width: 870px) {
+    .your-life__title {
+        font-size: 56px;
+    }
+    .design__content {
+        max-width: 350px;
+        margin-right: 20px;
+    }
+    .design__content-title {
+        max-width: 360px;
+    }
+    .design__image img,
+    .implementation__image img {
+        width: 90%;
+    }
+    .community__content {
+        margin-right: 4%;
+    }
+    .implementation {
+        padding: 120px 10px 137px;
+    }
+    .implementation__content {
+       margin-left: 0;
+    }
+    .footer__content {
+        padding: 0 20px;
+    }
+}
+@media (max-width: 770px) {
+    .your-life__title {
+        font-size: 50px;
+    }
+    .design {
+        padding: 120px 10px 140px 45px;
+    }
+    .community__content-wrapper {
+        padding: 0 20px;
+    }
+}
+@media (max-width: 710px) {
+    .community {
+        padding: 85px 0 105px;
+    }
+    .community__content-wrapper {
+        display: block;
+    }
+    .community__content {
+        margin: 0 auto 80px;
+    }
+    .community__slider {
+        margin: 0 auto;
+    }
+    .community__count {
+        right: 40%;
+    }
+    .slider-arrows {
+        right: 36%;
+    }
+    .slider-arrows__left {
+        right: 52%;
+    }
+}
+@media (max-width: 650px) {
+    .menu__list {
+        justify-content: space-around;
+    }
+    .your-life__title {
+        font-size: 40px;
+    }
+    .your-life__text {
+        font-size: 16px;
+    }
+    .design,
+    .implementation {
+        display: block;
+        padding: 120px 20px 140px;
+        text-align: center;
+    }
+    .design__content {
+        margin: 0 auto 20px;
+    }
+    .design__content .btn,
+    .implementation__content .btn {
+        margin: 0 auto;
+    }
+    .design__image img,
+    .implementation__image img {
+        width: 70%;
+    }
+    .implementation__content {
+        margin: 20px auto 0;
+    }
+    .footer {
+        padding: 60px 0 55px;
+    }
+    .footer__content {
+        flex-direction: column;
+        max-width: 100%;
+    }
+    .footer__content-logo {
+        margin: 20px 0;
+    }
+}
+@media (max-width: 530px) {
+    .your-life__social-list {
+        margin-top: 120px;
+    }
+    .design,
+    .implementation,
+    .download {
+        padding: 80px 20px 90px;
+    }
+}
+@media (max-width: 470px) {
+    .community__content-wrapper {
+        padding: 0 5px;
+    }
+    .sign-up {
+        padding: 217px 10px 0;
+    }
+}
+@media (max-width: 420px) {
+    .slider-arrows__left {
+        right: 55%;
+    }
+    .community__slider {
+        max-width: 310px;
+    }
+    .community__slider img{
+        max-width: 310px;
+    }
+}
+@media (max-width: 320px) {
+    .your-life__title {
+        font-size: 38px;
+        line-height: 66px;
+    }
+    .design__content-title,
+    .implementation__content-title,
+    .download__content-title {
+        font-size: 22px;
+    }
+}
